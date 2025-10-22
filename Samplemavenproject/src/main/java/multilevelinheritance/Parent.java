@@ -13,9 +13,9 @@ public class Parent extends Grandparent {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Parent p = new Parent();
-		p.sum();
-		p.substraction();
+//		Parent p = new Parent();
+//		p.sum();
+//		p.substraction();
 				
 
 	}
