@@ -7,7 +7,9 @@ public class Exceptionclasstwo {
 		System.out.println("This is the Throw & Throws Exception Handling Example program");
 	}
 
-	public static void main(String[] args) throws Exception  {
+	public static void main(String[] args) throws VoteException   {
+	
+//	public static void main(String[] args) throws Exception   {
 		// TODO Auto-generated method stub
 		
 		int age = 15;
@@ -25,7 +27,12 @@ public class Exceptionclasstwo {
 			//throw new ArithmeticException("Eglible For Not - Voteing"); 
 			
 			// Throws exception handling :-	in main method declare the throws Exception		
-			throw new Exception("Eglible For Not - Voteing");
+			
+//			throw new Exception("Eglible For Not - Voteing");
+			
+			
+			// Custom Exception declare
+			throw new VoteException("Eglible For Not - Voteing");
 			
 		}
 
