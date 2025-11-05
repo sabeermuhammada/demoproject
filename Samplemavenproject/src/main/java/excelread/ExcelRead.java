@@ -21,11 +21,11 @@ public class ExcelRead {
 
 	{
 
-		f=new FileInputStream("E:\\Sabeer\\ExcelData\\excel_example.xlsx");
+		f=new FileInputStream("E:\\Sabeer\\ExcelData\\Untitled spreadsheet.xlsx");
 
 		wb= new XSSFWorkbook(f);
 
-		sh=wb.getSheet("sheet1");
+		sh=wb.getSheet("Sheet1");
 
 		XSSFRow r =sh.getRow(a); 
 
@@ -39,11 +39,11 @@ public class ExcelRead {
 
 	{
 
-		f= new FileInputStream("E:\\Sabeer\\ExcelData\\excel_example.xlsx");
+		f= new FileInputStream("E:\\Sabeer\\ExcelData\\Untitled spreadsheet.xlsx");
 
 		wb= new XSSFWorkbook(f);
 
-		sh=wb.getSheet("sheet1");
+		sh=wb.getSheet("Sheet1");
 
 		XSSFRow r=sh.getRow(a);
 
@@ -61,11 +61,11 @@ public class ExcelRead {
 
 	{
 
-		f= new FileInputStream("E:\\Sabeer\\ExcelData\\excel_example.xlsx");
+		f= new FileInputStream("E:\\Sabeer\\ExcelData\\Untitled spreadsheet.xlsx");
 
 		wb= new XSSFWorkbook(f);
 
-		sh=wb.getSheet("sheet1");
+		sh=wb.getSheet("Sheet1");
 
 		XSSFRow r=sh.getRow(a);
 
